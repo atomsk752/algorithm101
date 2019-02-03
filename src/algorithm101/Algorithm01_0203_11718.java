@@ -27,7 +27,7 @@ public class Algorithm01_0203_11718 {
 				}
 				scan.close();
 				break;
-			//특수문자나, 입력값이 100자 이상, 공백으로 식작하거나 끝날 때 다시 입력. 다시 입력은 카운트하지 않는다
+			//특수문자나, 입력값이 100자 이상, 공백으로 시작하거나 끝날 때 다시 입력. 다시 입력은 카운트하지 않는다
 			}else if (m.matches()==false || input.length()>100 || input.startsWith(" ") || input.endsWith(" ")) {
 				System.out.println("다시 입력해주세요");
 				i = i-1;
