@@ -10,7 +10,7 @@ public class Algorithm02_0211_10869 {
 
         double a = scan.nextInt();
         double b = scan.nextInt();
-
+        scan.close();
         int add = (int) a + (int) b;
         int minus = (int) a - (int) b;
         int multiply = (int) a * (int) b;
@@ -21,7 +21,7 @@ public class Algorithm02_0211_10869 {
         if (a < 1 || b > 10000){
 
             System.out.println("regame");
-            scan.close();
+
 
         }else {
 
@@ -31,7 +31,7 @@ public class Algorithm02_0211_10869 {
             System.out.println("*  " + multiply);
             System.out.println("/  "  + String.format("%.1f", division));
             System.out.println("%  " + surplus);
-            scan.close();
+
 
 
         }

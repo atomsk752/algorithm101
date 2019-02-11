@@ -10,6 +10,7 @@ public class Algorithm02_0211_1008 {
 
         double a = scan.nextInt();
         double b = scan.nextInt();
+        scan.close();
 
         double c = a/b;
 
