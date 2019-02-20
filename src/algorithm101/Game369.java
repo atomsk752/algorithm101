@@ -10,7 +10,6 @@ public class Game369 {
 
         int N = scan.nextInt();
 
-
         int res, numberOf369 = 0;
 
         if (N >=1 && N<=99){
