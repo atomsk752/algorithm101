@@ -8,13 +8,12 @@ import java.util.StringTokenizer;
 
 public class Algorithm04_0225_10817 {
 	
-	public static StringTokenizer st;
-	
+
 	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		st = new StringTokenizer(br.readLine());
+
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
 		
 		int[] nums = new int[3];
@@ -24,6 +23,7 @@ public class Algorithm04_0225_10817 {
 			nums[i] = Integer.parseInt(st.nextToken());
 			
 		}
+
 		Arrays.sort(nums);
 		System.out.println(nums[1]);
 		
