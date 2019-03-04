@@ -1,4 +1,4 @@
-package algorithm101;
+package algorithm101.baekjoon04;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

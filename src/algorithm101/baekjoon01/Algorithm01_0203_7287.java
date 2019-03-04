@@ -1,4 +1,4 @@
-package algorithm101;
+package algorithm101.baekjoon01;
 
 public class Algorithm01_0203_7287 {
 

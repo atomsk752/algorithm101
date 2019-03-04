@@ -1,4 +1,4 @@
-package algorithm101;
+package algorithm101.baekjoon03;
 
 import java.io.*;
 import java.util.StringTokenizer;

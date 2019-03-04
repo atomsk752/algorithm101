@@ -1,19 +1,22 @@
-package algorithm101;
+package algorithm101.baekjoon03;
 
 import java.util.Scanner;
 
-public class Algorithm03_0218_2438 {
+public class Algorithm03_0219_2440 {
 
     public static void main(String[] args) {
+
 
         Scanner scan = new Scanner(System.in);
 
         int N = scan.nextInt();
 
-        for (int i = 1; i <= N; i++){
+        for (int j = 0; j < N; j++) {
 
-            for (int j = 1; j <= i; j++){
+            for (int i = 0; i < N-j; i++) {
+
                 System.out.print("*");
+
             }
 
             System.out.println();
@@ -22,5 +25,4 @@ public class Algorithm03_0218_2438 {
 
 
     }
-
 }
