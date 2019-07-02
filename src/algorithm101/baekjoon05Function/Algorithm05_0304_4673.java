@@ -1,4 +1,4 @@
-package algorithm101.baekjoon05;
+package algorithm101.baekjoon05Function;
 
 public class Algorithm05_0304_4673 {
 

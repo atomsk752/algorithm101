@@ -1,4 +1,4 @@
-package algorithm101.baekjoon05;
+package algorithm101.baekjoon05Function;
 
 import java.io.BufferedReader;
 import java.io.IOException;
